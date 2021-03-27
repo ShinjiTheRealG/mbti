@@ -10,30 +10,78 @@ var prompts = [{
     ISTP: -1,
     INTJ: 1,
     INFJ: 0,
+    ESTJ: 1,
+    ESTP: -1,
+    ENTJ: 1,
+    ENFJ: 0,
+    ISFP: 1,
+    ISFJ: -1,
+    INTP: 1,
+    INFP: 0,
+    ESFJ: 1,
+    ENTP: -1,
+    ESFP: 1,
+    ENFP: 0,
     class: 'group0'
   },
   {
     prompt: 'I use Si a lot',
-    ISTJ: 2,
-    ISTP: 0,
-    INTJ: -2,
-    INFJ: -2,
+    ISTJ: 1,
+    ISTP: -1,
+    INTJ: 1,
+    INFJ: 0,
+    ESTJ: 1,
+    ESTP: -1,
+    ENTJ: 1,
+    ENFJ: 0,
+    ISFP: 1,
+    ISFJ: -1,
+    INTP: 1,
+    INFP: 0,
+    ESFJ: 1,
+    ENTP: -1,
+    ESFP: 1,
+    ENFP: 0,
     class: 'group1'
   },
   {
     prompt: 'I use Ti a lot',
-    ISTJ: 0,
-    ISTP: 2,
-    INTJ: 0,
-    INFJ: 1,
+    ISTJ: 1,
+    ISTP: -1,
+    INTJ: 1,
+    INFJ: 0,
+    ESTJ: 1,
+    ESTP: -1,
+    ENTJ: 1,
+    ENFJ: 0,
+    ISFP: 1,
+    ISFJ: -1,
+    INTP: 1,
+    INFP: 0,
+    ESFJ: 1,
+    ENTP: -1,
+    ESFP: 1,
+    ENFP: 0,
     class: 'group2'
   },
   {
     prompt: 'I use Ni a lot',
-    ISTJ: -2,
-    ISTP: 1,
-    INTJ: 2,
-    INFJ: 2,
+    ISTJ: 1,
+    ISTP: -1,
+    INTJ: 1,
+    INFJ: 0,
+    ESTJ: 1,
+    ESTP: -1,
+    ENTJ: 1,
+    ENFJ: 0,
+    ISFP: 1,
+    ISFJ: -1,
+    INTP: 1,
+    INFP: 0,
+    ESFJ: 1,
+    ENTP: -1,
+    ESFP: 1,
+    ENFP: 0,
     class: 'group3'
   },
   {
@@ -170,7 +218,18 @@ var totalISTJ = 0;
 var totalISTP = 0;
 var totalINTJ = 0;
 var totalINFJ = 0;
-
+var totalESTJ = 0;
+var totalESTP = 0;
+var totalENTJ = 0;
+var totalENFJ = 0;
+var totalISFJ = 0;
+var totalISFP = 0;
+var totalINTP = 0;
+var totalINFP = 0;
+var totalESFJ = 0;
+var totalESFP = 0;
+var totalENTP = 0;
+var totalENFP = 0;
 // Get the weight associated to group number
 function findPromptWeightINFJ(prompts, group) {
   var INFJ = 0;
@@ -218,6 +277,151 @@ function findPromptWeightINTJ(prompts, group) {
 
   return INTJ;
 }
+// Get the weight associated to group number
+function findPromptWeightENFJ(prompts, group) {
+  var ENFJ = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ENFJ = prompts[i].ENFJ;
+    }
+  }
+
+  return ENFJ;
+}
+// Get the weight associated to group number
+function findPromptWeightESTJ(prompts, group) {
+  var ESTJ = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ESTJ = prompts[i].ESTJ;
+    }
+  }
+
+  return ESTJ;
+}
+// Get the weight associated to group number
+function findPromptWeightESTP(prompts, group) {
+  var ESTP = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ESTP = prompts[i].ESTP;
+    }
+  }
+
+  return ESTP;
+} 
+// Get the weight associated to group number
+function findPromptWeightENTJ(prompts, group) {
+  var ENTJ = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ENTJ = prompts[i].ENTJ;
+    }
+  }
+
+  return ENTJ;
+}
+// Get the weight associated to group number
+function findPromptWeightINFP(prompts, group) {
+  var INFP = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      INFP = prompts[i].INFP;
+    }
+  }
+
+  return INFP;
+}
+// Get the weight associated to group number
+function findPromptWeightINTP(prompts, group) {
+  var INTP = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      INTP = prompts[i].INTP;
+    }
+  }
+
+  return INTP;
+}
+// Get the weight associated to group number
+function findPromptWeightISFP(prompts, group) {
+  var ISFP = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ISFP = prompts[i].ISFP;
+    }
+  }
+
+  return ISFP;
+} 
+// Get the weight associated to group number
+function findPromptWeightISFJ(prompts, group) {
+  var ISFJ = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ISFJ = prompts[i].ISFJ;
+    }
+  }
+
+  return ISFJ;
+}
+// Get the weight associated to group number
+function findPromptWeightENFP(prompts, group) {
+  var ENFP = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ENFP = prompts[i].ENFP;
+    }
+  }
+
+  return ENFP;
+}
+// Get the weight associated to group number
+function findPromptWeightENTP(prompts, group) {
+  var ENTP = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ENTP = prompts[i].ENTP;
+    }
+  }
+
+  return ENTP;
+}
+// Get the weight associated to group number
+function findPromptWeightESFP(prompts, group) {
+  var ESFP = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ESFP = prompts[i].ESFP;
+    }
+  }
+
+  return ESFP;
+} 
+// Get the weight associated to group number
+function findPromptWeightESFJ(prompts, group) {
+  var ESFJ = 0;
+
+  for (var i = 0; i < prompts.length; i++) {
+    if (prompts[i].class === group) {
+      ESFJ = prompts[i].ESFJ;
+    }
+  }
+
+  return ESFJ;
+}
+
 
 // Get the weight associated to the value
 function findValueWeight(values, value) {
@@ -251,12 +455,36 @@ $('.value-btn').mousedown(function() {
     totalISTP -= (findPromptWeightISTP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
     totalINTJ -= (findPromptWeightINTJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
     totalINFJ -= (findPromptWeightINFJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalESTJ -= (findPromptWeightESTJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalESTP -= (findPromptWeightESTP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalENTJ -= (findPromptWeightENTJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalENFJ -= (findPromptWeightENFJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalISFJ -= (findPromptWeightISFJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalISFP -= (findPromptWeightISFP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalINTP -= (findPromptWeightINTP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalINFP -= (findPromptWeightINFP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalESFJ -= (findPromptWeightESFJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalESFP -= (findPromptWeightESFP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalENTP -= (findPromptWeightENTP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalENFP -= (findPromptWeightENFP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
   } else {
     // $('[class='thisgroup).prop('checked', false);
-    totalISTJ = (findPromptWeightISTJ(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalISTJ -= (findPromptWeightISTJ(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
     totalISTP -= (findPromptWeightISTP(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
     totalINTJ -= (findPromptWeightINTJ(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
     totalINFJ -= (findPromptWeightINFJ(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalESTJ -= (findPromptWeightESTJ(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalESTP -= (findPromptWeightESTP(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalENTJ -= (findPromptWeightENTJ(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalENFJ -= (findPromptWeightENFJ(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalISFJ -= (findPromptWeightISFJ(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalISFP -= (findPromptWeightISFP(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalINTP -= (findPromptWeightINTP(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalINFP -= (findPromptWeightINFP(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalESFJ -= (findPromptWeightESFJ(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalESFP -= (findPromptWeightESFP(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalENTP -= (findPromptWeightENTP(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
+    totalENFP -= (findPromptWeightENFP(prompts, this_group) * findValueWeight(prompt_values, $('.' + this_group + '.active').text()));
     // console.log($('.'+this_group+'.active').text());
     $('.' + this_group).removeClass('active');
 
@@ -267,12 +495,36 @@ $('.value-btn').mousedown(function() {
     totalISTP += (findPromptWeightISTP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
     totalINTJ += (findPromptWeightINTJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
     totalINFJ += (findPromptWeightINFJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalESTJ += (findPromptWeightESTJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalESTP += (findPromptWeightESTP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalENTJ += (findPromptWeightENTJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalENFJ += (findPromptWeightENFJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalISFJ += (findPromptWeightISFJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalISFP += (findPromptWeightISFP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalINTP += (findPromptWeightINTP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalINFP += (findPromptWeightINFP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalESFJ += (findPromptWeightESFJ(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalESFP += (findPromptWeightESFP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalENTP += (findPromptWeightENTP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
+    totalENFP += (findPromptWeightENFP(prompts, this_group) * findValueWeight(prompt_values, $(this).text()));
   }
 
   console.log(totalISTJ);
   console.log(totalISTP);
   console.log(totalINFJ);
   console.log(totalINTJ);
+  console.log(totalESTJ);
+  console.log(totalESTP);
+  console.log(totalENFJ);
+  console.log(totalENTJ);
+  console.log(totalISFJ);
+  console.log(totalISFP);
+  console.log(totalINFP);
+  console.log(totalINTP);
+  console.log(totalESFJ);
+  console.log(totalESFP);
+  console.log(totalENFP);
+  console.log(totalENTP);
 })
 
 
@@ -288,6 +540,18 @@ $('#submit-btn').click(function() {
   document.getElementById('totalINTJ').innerHTML = totalINTJ;
   document.getElementById('totalISTP').innerHTML = totalISTP;
   document.getElementById('totalINFJ').innerHTML = totalINFJ;
+  document.getElementById('totalESTJ').innerHTML = totalESTJ;
+  document.getElementById('totalENTJ').innerHTML = totalENTJ;
+  document.getElementById('totalESTP').innerHTML = totalESTP;
+  document.getElementById('totalENFJ').innerHTML = totalENFJ;
+  document.getElementById('totalISFJ').innerHTML = totalISFJ;
+  document.getElementById('totalINTP').innerHTML = totalINTP;
+  document.getElementById('totalISFP').innerHTML = totalISFP;
+  document.getElementById('totalINFP').innerHTML = totalINFP;
+  document.getElementById('totalESFJ').innerHTML = totalESFJ;
+  document.getElementById('totalENTP').innerHTML = totalENTP;
+  document.getElementById('totalESFP').innerHTML = totalESFP;
+  document.getElementById('totalENFP').innerHTML = totalENFP;
     
   
   
