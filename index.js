@@ -325,7 +325,7 @@ var prompts = [{
     class: 'group15'
   },
   {
-    prompt: 'Your mind is often considering and in tune with the feelings and values of other people and considering what would be appropriate, kind, or nice',
+    prompt: 'Your mind is quite often considering and in tune with the feelings and values of other people and considering what would be appropriate, kind, or nice',
     ISTJ: -2,
     ISTP: 1,
     INTJ: -2,
@@ -363,6 +363,66 @@ var prompts = [{
     ESFP: -4,
     ENFP: -4,
     class: 'group17'
+  },
+  {
+    prompt: 'You tend to fail to notice critical details and seem to misremember events, you may pretend to hear only the literal level of communication, or you may find it amusing to rewrite history or have an urge to do so',
+    ISTJ: -1,
+    ISTP: 0,
+    INTJ: 0,
+    INFJ: 0,
+    ESTJ: -1,
+    ESTP: 0,
+    ENTJ: 2,
+    ENFJ: 2,
+    ISFP: 0,
+    ISFJ: -1,
+    INTP: 0,
+    INFP: 0,
+    ESFJ: -1,
+    ENTP: 0,
+    ESFP: 0,
+    ENFP: 0,
+    class: 'group18'
+  },
+  {
+    prompt: 'Your mind is quite often focused on classifying and building very personal principles, frameworks, and/or blueprints to explain reality',
+    ISTJ: -1,
+    ISTP: 2,
+    INTJ: -1,
+    INFJ: 1,
+    ESTJ: -1,
+    ESTP: 2,
+    ENTJ: -1,
+    ENFJ: 1,
+    ISFP: -2,
+    ISFJ: 1,
+    INTP: 2,
+    INFP: -2,
+    ESFJ: 1,
+    ENTP: 2,
+    ESFP: -2,
+    ENFP: -2,
+    class: 'group19'
+  },
+  {
+    prompt: 'You tend to be more comfortable with and/or trust things that are tangible, practical, and realistic rather than focusing more on the theoretical, implications, or ideals
+    ISTJ: 4,
+    ISTP: 4,
+    INTJ: -4,
+    INFJ: -4,
+    ESTJ: 4,
+    ESTP: 4,
+    ENTJ: -4,
+    ENFJ: -4,
+    ISFP: 4,
+    ISFJ: 4,
+    INTP: -4,
+    INFP: -4,
+    ESFJ: 4,
+    ENTP: -4,
+    ESFP: 4,
+    ENFP: -4,
+    class: 'group20'
   }
 
 ]
