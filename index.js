@@ -883,7 +883,7 @@ var prompts = [{
     ESFP: 1,
     ENFP: 1,
     class: 'group43'
-  },
+  }
 
 ]
 
