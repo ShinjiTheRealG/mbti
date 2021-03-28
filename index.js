@@ -5,7 +5,7 @@
 // If a personlity trait is considered more extroverted, it will have a positive weight.
 
 var prompts = [{
-    prompt: 'You have a high level of confidence in your ability to experience deep sympathy for anyone, serve as a moral compass, and/or decipher what you personally find to be good/bad or what you love/hate.',
+    prompt: 'You have a high level of confidence in your ability to experience deep sympathy for anyone, serve as a moral compass, and/or decipher what you personally find to be good/bad or what you love/hate',
     ISTJ: 2,
     ISTP: -2,
     INTJ: 2,
@@ -285,7 +285,7 @@ var prompts = [{
     class: 'group13'
   },
   {
-    prompt: 'You tend to enjoy large social groups of 4 or more rather than under 4. ',
+    prompt: 'You tend to enjoy large social groups of 4 or more rather than under 4 ',
     ISTJ: -6,
     ISTP: -6,
     INTJ: -6,
@@ -585,7 +585,7 @@ var prompts = [{
     class: 'group28'
   },
   {
-    prompt: 'Your mind tends to be future focused and you tend to speculate rather than your mind tending to be present or past focused and you being more often skeptic.',
+    prompt: 'Your mind tends to be future focused and you tend to speculate rather than your mind tending to be present or past focused and you being more often skeptic',
     ISTJ: -6,
     ISTP: -6,
     INTJ: 6,
@@ -605,7 +605,7 @@ var prompts = [{
     class: 'group29'
   }, 
   {
-    prompt: 'You tend to be sporadic (too much or too little) with micromanaging and/or giving factual advice, present facts with childlike fervor and excitement, and/or you can get tyrannical and decisive with rules.',
+    prompt: 'You tend to be sporadic (too much or too little) with micromanaging and/or giving factual advice, present facts with childlike fervor and excitement, and/or you can get tyrannical and decisive with rules',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -645,7 +645,7 @@ var prompts = [{
     class: 'group31'
   },
   {
-    prompt: 'You are often enforcing, censoring, or suppressing rather than rebelling, dissenting, or being disobedient.',
+    prompt: 'You are often enforcing, censoring, or suppressing rather than rebelling, dissenting, or being disobedient',
     ISTJ: 6,
     ISTP: -6,
     INTJ: -6,
@@ -843,7 +843,47 @@ var prompts = [{
     ESFP: -2,
     ENFP: -2,
     class: 'group41'
-  }
+  },
+  {
+    prompt: 'You often find it difficult to to figure out how you feel about things',
+    ISTJ: 0,
+    ISTP: 2,
+    INTJ: 0,
+    INFJ: 0,
+    ESTJ: 0,
+    ESTP: 1,
+    ENTJ: 0,
+    ENFJ: 0,
+    ISFP: -1,
+    ISFJ: 0,
+    INTP: 0,
+    INFP: -1,
+    ESFJ: 0,
+    ENTP: 1,
+    ESFP: -1,
+    ENFP: -1,
+    class: 'group42'
+  },
+  {
+    prompt: 'You are hesitant to believe something that makes sense to you until you have data or sources to verify',
+    ISTJ: 2,
+    ISTP: -1,
+    INTJ: 2,
+    INFJ: -2,
+    ESTJ: 2,
+    ESTP: -1,
+    ENTJ: 2,
+    ENFJ: -2,
+    ISFP: 1,
+    ISFJ: -2,
+    INTP: -1,
+    INFP: 1,
+    ESFJ: -2,
+    ENTP: -1,
+    ESFP: 1,
+    ENFP: 1,
+    class: 'group43'
+  },
 
 ]
 
