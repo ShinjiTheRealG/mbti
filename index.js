@@ -2212,27 +2212,27 @@ var prompts = [{
 // This array stores all of the possible values and the weight associated with the value. 
 // The stronger agreeance/disagreeance, the higher the weight on the user's answer to the prompt.
 var prompt_values = [{
-    value: 'Agree',
+    value: 'Strongly Agree',
     class: 'btn-default btn-strongly-agree',
     weight: 2
   },
   {
-    value: 'Somewhat Agree',
+    value: 'Agree',
     class: 'btn-default btn-agree',
     weight: 1,
   },
   {
-    value: 'Neutral/Unsure',
+    value: 'Neutral',
     class: 'btn-default',
     weight: 0
   },
   {
-    value: 'Somewhat Disagree',
+    value: 'Disagree',
     class: 'btn-default btn-disagree',
     weight: -1
   },
   {
-    value: 'Disagree',
+    value: 'Strongly Disagree',
     class: 'btn-default btn-strongly-disagree',
     weight: -2
   }
