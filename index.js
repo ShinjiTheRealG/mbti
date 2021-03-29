@@ -1145,7 +1145,7 @@ var prompts = [{
     class: 'group56'
   },
   {
-    prompt: 'You are often thinking about and devloping personal theories, and you tend to trust these deliberations.',
+    prompt: 'You are often thinking about and developing personal theories, and you tend to trust these deliberations.',
     ISTJ: -2,
     ISTP: 4,
     INTJ: -2,
