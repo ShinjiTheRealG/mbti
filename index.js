@@ -465,7 +465,7 @@ var prompts = [{
     class: 'group22'
   },
   {
-    prompt: 'You tend to be more focused on what is good for the group and value interdependence rather than focused on what works and valuing self-determination.',
+    prompt: 'You tend to be more focused on what is good for the group and value interdependence/cooperation rather than focused on utility and valuing self-determination.',
     ISTJ: 6,
     ISTP: -6,
     INTJ: -6,
@@ -485,7 +485,7 @@ var prompts = [{
     class: 'group23'
   },
   {
-    prompt: 'You tend to be very confident in your ability to read social situations instantly and/or to mirror and express the feelings of others',
+    prompt: 'You tend to be very confident in your ability to read social situations instantly and/or to mirror and express the feelings of others.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -505,7 +505,7 @@ var prompts = [{
     class: 'group24'
   },
   {
-    prompt: 'You often see the symbolism or inner implications of objects and events with respect to your life and vision',
+    prompt: 'You often see the symbolism or inner implications of objects and events with respect to your life and vision.',
     ISTJ: -4,
     ISTP: 2,
     INTJ: 4,
@@ -525,7 +525,7 @@ var prompts = [{
     class: 'group25'
   },
   {
-    prompt: 'You tend to prefer using and reusing consistent frameworks, procedures, or structured techniques rather than taking on situations uniquely for the benefit of the interests of all involved',
+    prompt: 'You tend to prefer using and reusing consistent frameworks, procedures, or structured techniques rather than taking on situations uniquely for the benefit of the interests of all involved.',
     ISTJ: 6,
     ISTP: -6,
     INTJ: 6,
@@ -545,7 +545,7 @@ var prompts = [{
     class: 'group26'
   },
   {
-    prompt: 'You tend to be very responsible with figuring out how things work and explaining that to others, with playing devils advocate to challenge the views of others, and/or providing deductive analysis',
+    prompt: 'You tend to be very responsible with figuring out how things work and explaining that to others, with playing devils advocate to challenge the views of others, and/or providing deductive analysis.',
     ISTJ: 0,
     ISTP: 1,
     INTJ: 0,
@@ -565,7 +565,7 @@ var prompts = [{
     class: 'group27'
   },
   {
-    prompt: 'You often recognize intent, the perspectives of others, or the real reasons behind actions',
+    prompt: 'You often recognize intent, the perspectives of others, or the real reasons behind actions.',
     ISTJ: 2,
     ISTP: -4,
     INTJ: -2,
@@ -585,7 +585,7 @@ var prompts = [{
     class: 'group28'
   },
   {
-    prompt: 'Your mind tends to be future focused and you tend to speculate rather than your mind tending to be present or past focused and you being more often skeptic',
+    prompt: 'Your mind tends to be future focused and speculative rather than present/past focused and skeptical.',
     ISTJ: -6,
     ISTP: -6,
     INTJ: 6,
@@ -605,7 +605,7 @@ var prompts = [{
     class: 'group29'
   }, 
   {
-    prompt: 'You tend to be sporadic (too much or too little) with micromanaging and/or giving factual advice, present facts with childlike fervor and excitement, and/or you can get tyrannical and decisive with rules',
+    prompt: 'You tend to be sporadic (too much or too little) with micromanaging and/or giving factual advice, present facts with childlike fervor and excitement, and/or you can get tyrannical and decisive with rules.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -625,7 +625,7 @@ var prompts = [{
     class: 'group30'
   },
   {
-    prompt: 'You often enter an inner world of stored impressions of reality and often the immediate experience or words are instantly linked with prior experiences/memories and you register that there is a similarity or difference. This could be that you often notice how things may taste, look, or sound different than usual. It is a sort of keenness in PECULIAR details',
+    prompt: 'You often enter an inner world of stored impressions of reality, and you often link the immediate experience with prior experiences/memories. This could be that you often notice how things may taste, look, or sound different than usual.',
     ISTJ: 4,
     ISTP: -2,
     INTJ: -4,
