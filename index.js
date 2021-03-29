@@ -5,7 +5,7 @@
 // If a personlity trait is considered more extroverted, it will have a positive weight.
 
 var prompts = [{
-    prompt: 'You have a high level of confidence in your ability to experience deep sympathy for anyone, serve as a moral compass, and/or decipher what you personally find to be good/bad or what you love/hate',
+    prompt: 'You have a high level of confidence in your ability to experience deep sympathy for anyone, serve as a moral compass, and/or decipher what you personally find to be good/bad or what you love/hate.',
     ISTJ: 2,
     ISTP: -2,
     INTJ: 2,
@@ -25,7 +25,7 @@ var prompts = [{
     class: 'group0'
   },
   {
-    prompt: 'More often, you are seeking INTERNAL harmony through sensitivity to your own and others’ inner values and outer behavior rather than seeking EXTERNAL harmony through organizing and structuring the environment to meet people’s needs and their own values',
+    prompt: 'More often, you are seeking INTERNAL harmony through sensitivity to your own and others’ inner values rather than seeking EXTERNAL harmony to meet other people’s needs and their own values.',
     ISTJ: 2,
     ISTP: -4,
     INTJ: 2,
@@ -45,7 +45,7 @@ var prompts = [{
     class: 'group1'
   },
   {
-    prompt: 'When asking someone to do something, you tend to be explicit, concise, specific, and/or blunt with your command rather than getting them to buy into what you say with more information and implication',
+    prompt: 'When asking someone to do something, you tend to be explicit, concise, specific, and/or blunt with your command rather than getting them to buy into what you say with more information and implication.',
     ISTJ: 6,
     ISTP: 6,
     INTJ: 6,
@@ -65,7 +65,7 @@ var prompts = [{
     class: 'group2'
   },
   {
-    prompt: 'You are usually highly responsible with caring for the feelings of others, creating harmonious social atmospheres where people feel accepted and affirmed, and/or making sure people are being appropriate',
+    prompt: 'You are usually highly responsible with caring for the feelings of others, wpth creating harmonious social atmospheres where people feel accepted and affirmed, and/or making sure people are being appropriate.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -85,7 +85,7 @@ var prompts = [{
     class: 'group3'
   },
   {
-    prompt: 'More often, you are thinking with respect to objective data and empiricism rather than your subjective logic',
+    prompt: 'More often, you are thinking with respect to objective data and empiricism rather than your subjective logic.',
     ISTJ: 4,
     ISTP: -2,
     INTJ: 4,
@@ -105,7 +105,7 @@ var prompts = [{
     class: 'group4'
   },
   {
-    prompt: 'You have a natural drive to be more initiating in conversation with others rather than responding',
+    prompt: 'You have a natural drive to be more initiating in conversation with others rather than responding.',
     ISTJ: -6,
     ISTP: -6,
     INTJ: -6,
@@ -125,7 +125,7 @@ var prompts = [{
     class: 'group5'
   },
   {
-    prompt: 'You tend to be unyielding and overconfident in your ability to decipher what is true/false using subjective logical analysis and/or you crave using your deduction and analysis as a source of relief',
+    prompt: 'You tend to be unyielding and overconfident in your ability to decipher what is true/false using subjective logical analysis and/or you crave using your deduction and analysis as a source of relief.',
     ISTJ: -1,
     ISTP: 1,
     INTJ: -1,
@@ -145,7 +145,7 @@ var prompts = [{
     class: 'group6'
   },
   {
-    prompt: 'More often, you are directing energy inwardly to focus on unconscious images, connections, and patterns that create inner vision and insight RATHER than directing energy outwardly to scan for new ideas, interesting patterns, and future possibilities',
+    prompt: 'More often, you are directing energy inwardly to focus on unconscious images, connections, and patterns that create inner vision and insight RATHER than directing energy outwardly to scan for new ideas, interesting patterns, and future possibilities.',
     ISTJ: -4,
     ISTP: 2,
     INTJ: 4,
@@ -165,7 +165,7 @@ var prompts = [{
     class: 'group7'
   },
   {
-    prompt: 'More often, you are more comfortable with lack of progress if you maintain the quality of your goal RATHER than adapting or changing the goal for the sake of progress ',
+    prompt: 'More often, you are more comfortable with lack of progress if you maintain the quality of your goal RATHER than adapting or changing the goal for the sake of progress.',
     ISTJ: -6,
     ISTP: -6,
     INTJ: -6,
@@ -185,7 +185,7 @@ var prompts = [{
     class: 'group8'
   },
   {
-    prompt: 'You are fearful with expressing disagreement for fear of being inarticulate, worried about what other people think of you and your status, and/or insecure about gathering data/evidence and tend to overplan',
+    prompt: 'You are fearful with expressing disagreement for fear of being inarticulate, worried about what other people think of you and your status, and/or insecure about gathering data/evidence and tend to overplan.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -205,7 +205,7 @@ var prompts = [{
     class: 'group9'
   },
   {
-    prompt: 'More often, you are directing energy outwardly and acquiring information by focusing on a detailed and objective sensory data in the present RATHER than directing energy inwardly and storing the facts and details of both reality and internal thoughts, experiences, and memories',
+    prompt: 'More often, you are directing energy outwardly and acquiring information by focusing on a detailed and objective sensory data in the present RATHER than directing energy inwardly and storing the facts and details of both reality and internal thoughts/experiences/memories.',
     ISTJ: -2,
     ISTP: 4,
     INTJ: 2,
@@ -225,7 +225,7 @@ var prompts = [{
     class: 'group10'
   },
   {
-    prompt: 'You are prone to aggression, being overbearing, and underexplaining rather than being prone to passive aggression, overexplaining, and beating around the bush',
+    prompt: 'You are prone to aggression, being overbearing, and underexplaining rather than being prone to passive aggression, overexplaining, and beating around the bush.',
     ISTJ: 6,
     ISTP: 6,
     INTJ: 6,
@@ -245,7 +245,7 @@ var prompts = [{
     class: 'group11'
   },
   {
-    prompt: 'When you experience intuitive visions or insights, they are often negative, or you tend to distrust your own visions and feel obstructed by them',
+    prompt: 'When you experience intuitive visions or insights, they are often negative, or you tend to distrust your own visions and feel obstructed by them.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: -2,
@@ -265,7 +265,7 @@ var prompts = [{
     class: 'group12'
   },
   {
-    prompt: 'You are very often deciding according to importance or value or with what is good/bad or what you like/do not like',
+    prompt: 'You are very often deciding according to importance or value or with what is good/bad or what you like/do not like.',
     ISTJ: 2,
     ISTP: -4,
     INTJ: 2,
@@ -285,7 +285,7 @@ var prompts = [{
     class: 'group13'
   },
   {
-    prompt: 'You tend to enjoy large social groups of 4 or more rather than under 4 ',
+    prompt: 'You tend to enjoy large social groups of 4 or more rather than under 4.',
     ISTJ: -6,
     ISTP: -6,
     INTJ: -6,
@@ -305,7 +305,7 @@ var prompts = [{
     class: 'group14'
   },
   {
-    prompt: 'You tend to be very critical with what other people want, or you often criticize yourself and others for not having thought through all the consequences/possibilities',
+    prompt: 'You tend to be very critical with what other people want, or you often criticize yourself and others for not having thought through all the consequences/possibilities.',
     ISTJ: 0,
     ISTP: 2,
     INTJ: 0,
@@ -325,7 +325,7 @@ var prompts = [{
     class: 'group15'
   },
   {
-    prompt: 'Your mind is quite often considering and in tune with the feelings and values of other people and considering what would be appropriate, kind, or nice',
+    prompt: 'Your mind is quite often considering and in tune with the feelings and values of other people and considering what would be appropriate, kind, or nice.',
     ISTJ: -4,
     ISTP: 2,
     INTJ: -4,
@@ -345,7 +345,7 @@ var prompts = [{
     class: 'group16'
   },
   {
-    prompt: 'You tend to be patient with planning rather than restless and anxious with inaction towards your goals',
+    prompt: 'You tend to be patient with planning rather than restless and anxious with inaction towards your goals.',
     ISTJ: -6,
     ISTP: -6,
     INTJ: -6,
@@ -365,7 +365,7 @@ var prompts = [{
     class: 'group17'
   },
   {
-    prompt: 'You tend to fail to notice critical details and seem to misremember events, you may pretend to hear only the literal level of communication, or you may find it amusing to rewrite history or have an urge to do so',
+    prompt: 'You tend to fail to notice critical details and seem to misremember events, you may pretend to hear only the literal level of communication, and/or you may find it amusing to rewrite history or have an urge to do so.',
     ISTJ: -1,
     ISTP: 0,
     INTJ: 0,
@@ -385,7 +385,7 @@ var prompts = [{
     class: 'group18'
   },
   {
-    prompt: 'Your mind is quite often focused on classifying and building very personal principles, frameworks, and/or blueprints to explain reality',
+    prompt: 'Your mind is quite often focused on classifying and building very personal principles, frameworks, and/or blueprints to explain reality.',
     ISTJ: -2,
     ISTP: 4,
     INTJ: -2,
@@ -405,7 +405,7 @@ var prompts = [{
     class: 'group19'
   },
   {
-    prompt: 'You tend to be more comfortable with and/or trust things that are tangible, practical, and realistic rather than focusing more on the theoretical, implications, or ideals',
+    prompt: 'You tend to be more comfortable with and/or trust things that are tangible, practical, and realistic rather than focusing more on the theoretical, implications, or ideals.',
     ISTJ: 6,
     ISTP: 6,
     INTJ: -6,
@@ -425,7 +425,7 @@ var prompts = [{
     class: 'group20'
   },
   {
-    prompt: 'You tend to be completely oblivious to what is happening and fail to see danger in the environment',
+    prompt: 'You tend to be completely oblivious to what is happening and fail to see danger in the environment.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -445,27 +445,27 @@ var prompts = [{
     class: 'group21'
   },
   {
-    prompt: 'You tend to be more focused on what works in reality and are less trusting of logical speculation and less caring of how things work',
-    ISTJ: 4,
-    ISTP: -2,
-    INTJ: 4,
-    INFJ: -4,
-    ESTJ: 4,
-    ESTP: -2,
-    ENTJ: 4,
-    ENFJ: -4,
-    ISFP: 2,
-    ISFJ: -4,
-    INTP: -2,
-    INFP: 2,
-    ESFJ: -4,
-    ENTP: -2,
-    ESFP: 2,
-    ENFP: 2,
+    prompt: 'You would rather have a palm tree as a pet than a blue rabbit.',
+    ISTJ: 0,
+    ISTP: 0,
+    INTJ: 0,
+    INFJ: 0,
+    ESTJ: 0,
+    ESTP: 0,
+    ENTJ: 0,
+    ENFJ: 0,
+    ISFP: 0,
+    ISFJ: 0,
+    INTP: 0,
+    INFP: 0,
+    ESFJ: 0,
+    ENTP: 0,
+    ESFP: 0,
+    ENFP: 0,
     class: 'group22'
   },
   {
-    prompt: 'You tend to be more focused on what is good for the group and value interdependence rather than focused on what works and valuing self-determination',
+    prompt: 'You tend to be more focused on what is good for the group and value interdependence rather than focused on what works and valuing self-determination.',
     ISTJ: 6,
     ISTP: -6,
     INTJ: -6,
