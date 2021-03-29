@@ -645,7 +645,7 @@ var prompts = [{
     class: 'group31'
   },
   {
-    prompt: 'You are often enforcing, censoring, or suppressing rather than rebelling, dissenting, or being disobedient',
+    prompt: 'You are often enforcing, censoring, or suppressing rather than rebelling, dissenting, or being disobedient.',
     ISTJ: 6,
     ISTP: -6,
     INTJ: -6,
@@ -665,7 +665,7 @@ var prompts = [{
     class: 'group32'
   },
   {
-    prompt: 'You tend to be worried or fearful in determining what your path in life is or figuring out what you want in general',
+    prompt: 'You tend to be worried or fearful in determining what your path in life is or figuring out what you want in general.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: -1,
@@ -685,7 +685,7 @@ var prompts = [{
     class: 'group33'
   },
   {
-    prompt: 'You tend to be excited by motion, action, and nature and adept at physical multitasking with a videogame-like mind primed for action',
+    prompt: 'You tend to be excited by motion, action, and nature and are adept at physical multitasking with a videogame-like mind primed for action.',
     ISTJ: -2,
     ISTP: 4,
     INTJ: 2,
@@ -705,7 +705,7 @@ var prompts = [{
     class: 'group34'
   },
   {
-    prompt: 'You are prone to weighting the process over people or the system over self rather than weighting the profit over people and/or being cheap',
+    prompt: 'You are prone to weighting the process over people (or the system over self) rather than weighting the profit over people and/or being cheap.',
     ISTJ: 6,
     ISTP: -6,
     INTJ: 6,
@@ -725,7 +725,7 @@ var prompts = [{
     class: 'group35'
   },
   {
-    prompt: 'You tend to be overwhelmed or pressured by too many possible futures and/or you tend to see many negative outcomes to things',
+    prompt: 'You tend to be overwhelmed or pressured by too many possible futures, and/or you tend to see many negative outcomes to things.',
     ISTJ: 1,
     ISTP: 0,
     INTJ: 2,
@@ -745,7 +745,7 @@ var prompts = [{
     class: 'group36'
   },
   {
-    prompt: 'You often focus on voice tone and word choice and are attentive and curious to what is not said',
+    prompt: 'You often focus on voice tone and word choice and are attentive and curious to what is not said.',
     ISTJ: 2,
     ISTP: -4,
     INTJ: 2,
@@ -765,7 +765,7 @@ var prompts = [{
     class: 'group37'
   },
   {
-    prompt: 'You are often critical about sameness or routine in your daily life and/or hypercritical about inaccuracy of details and memories',
+    prompt: 'You are often critical about sameness or routine in your daily life and/or hypercritical about inaccuracy of details and memories.',
     ISTJ: 0,
     ISTP: 2,
     INTJ: -1,
@@ -785,7 +785,7 @@ var prompts = [{
     class: 'group38'
   },
   {
-    prompt: 'You often feel good when other people feel good, laugh when others laugh, and/or feel bad when others feel bad',
+    prompt: 'You often feel good when other people feel good, laugh when others laugh, and/or feel bad when others feel bad.',
     ISTJ: -4,
     ISTP: 2,
     INTJ: -4,
@@ -805,7 +805,7 @@ var prompts = [{
     class: 'group39'
   },
   {
-    prompt: 'You are often oblivious to your surroundings and/or unaware of how you are coming across to others',
+    prompt: 'You are often oblivious to your surroundings and/or unaware of how you are coming across to others.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -825,7 +825,7 @@ var prompts = [{
     class: 'group40'
   },
   {
-    prompt: 'You are hesitant to believe or buy into something until it makes sense to you, even if the information is from a reputable source or has a lot of data to support it',
+    prompt: 'You are hesitant to believe or buy into something until it makes sense to you, even if the information is from a reputable source or has a lot of data to support it.',
     ISTJ: -2,
     ISTP: 4,
     INTJ: -2,
@@ -845,7 +845,7 @@ var prompts = [{
     class: 'group41'
   },
   {
-    prompt: 'You often find it difficult to to figure out how you feel about things',
+    prompt: 'You often find it difficult to to figure out how you feel about things.',
     ISTJ: 0,
     ISTP: 2,
     INTJ: 0,
@@ -865,7 +865,7 @@ var prompts = [{
     class: 'group42'
   },
   {
-    prompt: 'You are hesitant to believe something that makes sense to you until you have data or sources to verify',
+    prompt: 'You are hesitant to believe something that makes sense to you until you have data or sources to verify.',
     ISTJ: 4,
     ISTP: -2,
     INTJ: 4,
@@ -885,7 +885,7 @@ var prompts = [{
     class: 'group43'
   },
   {
-    prompt: 'You often demand clarifying ideas and definitions first rather than starting with facts',
+    prompt: 'You often demand clarifying ideas and definitions first rather than starting with facts.',
     ISTJ: 0,
     ISTP: 2,
     INTJ: 0,
@@ -905,7 +905,7 @@ var prompts = [{
     class: 'group44'
   },
   {
-    prompt: 'You are more interested in pioneering a new road than in taking any beaten paths',
+    prompt: 'You are more interested in pioneering a new road than in taking any beaten paths.',
     ISTJ: -4,
     ISTP: 2,
     INTJ: 4,
@@ -925,7 +925,7 @@ var prompts = [{
     class: 'group45'
   },
   {
-    prompt: 'You are often responsible with teaching others structures, explaining data and evidence, and/or leading groups in executive roles',
+    prompt: 'You are often responsible with teaching others structures, explaining data and evidence, and/or leading groups in executive roles.',
     ISTJ: 2,
     ISTP: 0,
     INTJ: 2,
@@ -945,7 +945,7 @@ var prompts = [{
     class: 'group46'
   },
   {
-    prompt: 'You often think analogically and notice and apply patterns of relationships across multiple contexts',
+    prompt: 'You often think analogically and notice and apply patterns of relationships across multiple contexts.',
     ISTJ: 2,
     ISTP: -4,
     INTJ: -2,
@@ -965,7 +965,7 @@ var prompts = [{
     class: 'group47'
   },
   {
-    prompt: 'You are often fixated on what you want and get frustrated by the inability to actualize it, and/or you enjoy downtime to consider deeper meanings of things',
+    prompt: 'You are often fixated on what you want and get frustrated by the inability to actualize it, and/or you enjoy downtime to consider deeper meanings of things.',
     ISTJ: -1,
     ISTP: 2,
     INTJ: 1,
@@ -985,7 +985,7 @@ var prompts = [{
     class: 'group48'
   },
   {
-    prompt: 'You tend to be very dutiful, obligation driven, and very loyal compared to others',
+    prompt: 'You tend to be very dutiful, obligation driven, and very loyal compared to others.',
     ISTJ: 4,
     ISTP: -2,
     INTJ: -4,
@@ -1005,7 +1005,7 @@ var prompts = [{
     class: 'group49'
   },
   {
-    prompt: 'You tend to go through familiar routines to destress and/or you are fearful of new places, new jobs, or new situations, contimplating all the negative possibilities',
+    prompt: 'You tend to go through familiar routines to destress and/or you are fearful of new places, new jobs, or new situations, contimplating all the negative possibilities.',
     ISTJ: 2,
     ISTP: 0,
     INTJ: 0,
@@ -1025,7 +1025,7 @@ var prompts = [{
     class: 'group50'
   },
   {
-    prompt: 'You are in tune with the experiences that you are giving to others, particularly sensory related experiences',
+    prompt: 'You are in tune with the experiences that you are giving to others, particularly sensory related experiences.',
     ISTJ: -2,
     ISTP: 4,
     INTJ: 2,
@@ -1045,7 +1045,7 @@ var prompts = [{
     class: 'group51'
   },
   {
-    prompt: 'You tend to experience intense revulsion for slow and tedious tasks and/or you find dwelling in the past to be unimportant and unapplicable',
+    prompt: 'You tend to experience intense revulsion for slow and tedious tasks and/or you find dwelling in the past to be unimportant and unapplicable.',
     ISTJ: -1,
     ISTP: 0,
     INTJ: 1,
@@ -1065,7 +1065,7 @@ var prompts = [{
     class: 'group52'
   },
   {
-    prompt: 'You have a long and complicated list of very personal values that you frequently refer to',
+    prompt: 'You have a long and complicated list of very personal values that you frequently refer to.',
     ISTJ: 2,
     ISTP: -4,
     INTJ: 2,
@@ -1085,7 +1085,7 @@ var prompts = [{
     class: 'group53'
   },
   {
-    prompt: 'You may sharply criticize physical appearances of self',
+    prompt: 'You may sharply criticize physical appearances of self.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 1,
@@ -1105,7 +1105,7 @@ var prompts = [{
     class: 'group54'
   },
   {
-    prompt: 'You pay a lot of daily attention towards making other people happy and caring for them',
+    prompt: 'You pay a lot of daily attention towards making other people happy and caring for them.',
     ISTJ: -4,
     ISTP: 2,
     INTJ: -4,
@@ -1125,7 +1125,7 @@ var prompts = [{
     class: 'group55'
   },
   {
-    prompt: 'You tend not to trust your deepest feelings and find it difficult to determine the importance of your values, sometimes believing them to be more important than they actually are',
+    prompt: 'You tend not to trust your deepest feelings and find it difficult to determine the importance of your values, sometimes believing them to be more important than they actually are.',
     ISTJ: 0,
     ISTP: 1,
     INTJ: 0,
@@ -1145,7 +1145,7 @@ var prompts = [{
     class: 'group56'
   },
   {
-    prompt: 'You are often thinking about and devloping personal theories, and you tend to trust these deliberations',
+    prompt: 'You are often thinking about and devloping personal theories, and you tend to trust these deliberations.',
     ISTJ: -2,
     ISTP: 4,
     INTJ: -2,
@@ -1165,7 +1165,7 @@ var prompts = [{
     class: 'group57'
   },
   {
-    prompt: 'You completely misinterpret social interactions and you sometimes deny that the feeling states involved actually exist',
+    prompt: 'You completely misinterpret social interactions and you sometimes deny that the feeling states involved actually exist.',
     ISTJ: 1,
     ISTP: 0,
     INTJ: 1,
@@ -1185,7 +1185,7 @@ var prompts = [{
     class: 'group58'
   },
   {
-    prompt: 'You often decide/think first based on observed cause and effect or observed reasons and consequences rather than imagined/deduced effects or consequences',
+    prompt: 'You often decide/think first based on observed cause and effect or observed reasons and consequences rather than imagined/deduced effects or consequences.',
     ISTJ: 4,
     ISTP: -2,
     INTJ: 4,
@@ -1205,7 +1205,7 @@ var prompts = [{
     class: 'group59'
   },
   {
-    prompt: 'You are confident in your ability to organize people and/or resources to accomplish goals efficiently, and in accordance with clearly defined parameters',
+    prompt: 'You are confident in your ability to organize people and/or resources to accomplish goals efficiently, and in accordance with clearly defined parameters.',
     ISTJ: 1,
     ISTP: 0,
     INTJ: 1,
@@ -1225,7 +1225,7 @@ var prompts = [{
     class: 'group60'
   },
   {
-    prompt: 'You are less likely to go with the flow of a group and can be adamant about what you want to do (particularly in leisure scenarios like picking a place to eat or choosing a fun activity)',
+    prompt: 'You are less likely to go with the flow of a group and can be adamant about what you want to do (particularly in leisure scenarios like picking a place to eat or choosing a fun activity).',
     ISTJ: -4,
     ISTP: 2,
     INTJ: 4,
@@ -1245,7 +1245,7 @@ var prompts = [{
     class: 'group61'
   },
   {
-    prompt: 'You are very responsible with your insights and visions of the big picture and you tend to use them to guide others and lead them to their own insights',
+    prompt: 'You are very responsible with your insights and visions of the big picture and you tend to use them to guide others and lead them to their own insights.',
     ISTJ: -1,
     ISTP: 0,
     INTJ: 1,
@@ -1265,7 +1265,7 @@ var prompts = [{
     class: 'group62'
   },
   {
-    prompt: 'You easily go with the flow of the group and can be indifferent when asked to make a decision for a group related choice (particularly in leisure scenarios like choosing a place to eat or fun activity)',
+    prompt: 'You easily go with the flow of the group and can be indifferent when asked to make a decision for a group related choice (particularly in leisure scenarios like choosing a place to eat or fun activity).',
     ISTJ: 2,
     ISTP: -4,
     INTJ: -2,
@@ -1285,7 +1285,7 @@ var prompts = [{
     class: 'group63'
   },
   {
-    prompt: 'You get hooked by new ideas and enjoy persuing them enthusiastically, sometimes throwing caution to the wind. You also enjoy making bucket lists of things you want to do in the future',
+    prompt: 'You get hooked by new ideas and enjoy persuing them enthusiastically, sometimes throwing caution to the wind. You also enjoy making bucket lists of things you want to do in the future.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -1305,7 +1305,7 @@ var prompts = [{
     class: 'group64'
   },
   {
-    prompt: 'You often think about past stories that relate to the topic of conversation and you passionately share them',
+    prompt: 'You often think about past stories that relate to the topic of conversation and you passionately share them.',
     ISTJ: 4,
     ISTP: -2,
     INTJ: -4,
@@ -1325,7 +1325,7 @@ var prompts = [{
     class: 'group65'
   },        
   {
-    prompt: 'You tend to be anxious with received experiences, finances, deadlines, and your stability/comfort (please remember to compare yourself to others. Most people are anxious with these things, but are you particularly more? or particularly less? If you read the beginning section of this test, you should not need a reminder. This is here just in case)',
+    prompt: 'You tend to be anxious with received experiences, finances, deadlines, and your stability/comfort (please remember to compare yourself to others. Most people are anxious with these things, but are you particularly more? or particularly less? If you read the beginning section of this test, you should not need a reminder. This is here just in case).',
     ISTJ: -1,
     ISTP: 1,
     INTJ: -1,
@@ -1345,7 +1345,7 @@ var prompts = [{
     class: 'group66'
   },
   {
-    prompt: 'You tend to be rather impatient in general',
+    prompt: 'You tend to be rather impatient in general.',
     ISTJ: -2,
     ISTP: 4,
     INTJ: 2,
@@ -1365,7 +1365,7 @@ var prompts = [{
     class: 'group67'
   },
   {
-    prompt: 'You tend to feel that responding without reflecting is foreign and/or you tend to be very safety focused in sensate reality',
+    prompt: 'You tend to feel that responding without reflecting is foreign and/or you tend to be very safety focused in sensate reality.',
     ISTJ: 2,
     ISTP: 0,
     INTJ: 0,
@@ -1385,7 +1385,7 @@ var prompts = [{
     class: 'group68'
   },
   {
-    prompt: 'You are often thinking about how things work rather than what works',
+    prompt: 'You are often thinking about how things work rather than what works.',
     ISTJ: -2,
     ISTP: 4,
     INTJ: -2,
@@ -1405,7 +1405,7 @@ var prompts = [{
     class: 'group69'
   },
   {
-    prompt: 'You tend to be very critical about moral standards that you and others need to live up to',
+    prompt: 'You tend to be very critical about moral standards that you and others need to live up to.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -1425,7 +1425,7 @@ var prompts = [{
     class: 'group70'
   },
   {
-    prompt: 'During conversations where information is presented, you often initially consider where you got your information as well as where other people got their information from before asessing whether it is true',
+    prompt: 'During conversations where information is presented, you often initially consider where you got your information as well as where other people got their information from before asessing whether it is true.',
     ISTJ: 4,
     ISTP: -2,
     INTJ: 4,
@@ -1445,7 +1445,7 @@ var prompts = [{
     class: 'group71'
   },
   {
-    prompt: 'You react inappropriately without realizing it and you often have an urge to provoke or challenge people against the social norm',
+    prompt: 'You react inappropriately without realizing it and you often have an urge to provoke or challenge people against the social norm.',
     ISTJ: 2,
     ISTP: 0,
     INTJ: 2,
@@ -1465,7 +1465,7 @@ var prompts = [{
     class: 'group72'
   },
   {
-    prompt: 'You prioritize your own value/moral judgments over other people',
+    prompt: 'You prioritize your own value/moral judgments over other people.',
     ISTJ: 2,
     ISTP: -4,
     INTJ: 2,
@@ -1485,7 +1485,7 @@ var prompts = [{
     class: 'group73'
   },
   {
-    prompt: 'You suppress your analytical/deductive thinking skills',
+    prompt: 'You suppress your analytical/deductive thinking skills.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -1505,7 +1505,7 @@ var prompts = [{
     class: 'group74'
   },
   {
-    prompt: 'You prioritize the morals and values of others over your own',
+    prompt: 'You prioritize the morals and values of others over your own.',
     ISTJ: -4,
     ISTP: 2,
     INTJ: -4,
@@ -1525,7 +1525,7 @@ var prompts = [{
     class: 'group75'
   },
   {
-    prompt: 'You strive for an image or vision that synethesizes all, you commonly look for the ultimate meaning of things, and/or you seek knowledge at cosmic levels',
+    prompt: 'You strive for an image or vision that synthesizes all, you commonly look for the ultimate meaning of things, and/or you seek knowledge at cosmic levels.',
     ISTJ: -1,
     ISTP: 0,
     INTJ: 2,
@@ -1545,7 +1545,7 @@ var prompts = [{
     class: 'group76'
   },
   {
-    prompt: 'You are often focused on stability, comfort, maintanence and/or productivity',
+    prompt: 'You are often focused on stability, comfort, maintanence and/or productivity.',
     ISTJ: 4,
     ISTP: -2,
     INTJ: -4,
@@ -1565,7 +1565,7 @@ var prompts = [{
     class: 'group77'
   },
   {
-    prompt: 'You often generate multiple possibilities for others when they express their wants and needs',
+    prompt: 'You often generate multiple possibilities for others when they express their wants and needs.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -1605,7 +1605,7 @@ var prompts = [{
     class: 'group79'
   },
   {
-    prompt: 'You tend to tell and retell stories multiple times to the same people',
+    prompt: 'You tend to tell and retell stories multiple times to the same people.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: -1,
@@ -1625,7 +1625,7 @@ var prompts = [{
     class: 'group80'
   },
   {
-    prompt: 'You are insecure about how you look, how you are coming across to others, and/or fearful that you will give other people bad experiences',
+    prompt: 'You are insecure about how you look, how you are coming across to others, and/or fearful that you will give other people bad experiences.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 2,
@@ -1645,7 +1645,7 @@ var prompts = [{
     class: 'group81'
   },
   {
-    prompt: 'You sometimes worry you are a selfish or bad person and tend to be conflict-averse',
+    prompt: 'You sometimes worry you are a selfish or bad person and tend to be conflict-averse.',
     ISTJ: -1,
     ISTP: 0,
     INTJ: -1,
@@ -1665,7 +1665,7 @@ var prompts = [{
     class: 'group82'
   },
   {
-    prompt: 'You tend to be critical of yourself or others for not being attentive to the needs of others',
+    prompt: 'You tend to be critical of yourself or others for not being attentive to the needs of others.',
     ISTJ: 0,
     ISTP: 1,
     INTJ: 0,
@@ -1685,7 +1685,7 @@ var prompts = [{
     class: 'group83'
   },
   {
-    prompt: 'You may overanalyze to the point of paralysis; find maps, models, and theories repellent or hard to decipher; and/or you deliberately misinterpret the arguments of others, maybe for humor',
+    prompt: 'You may overanalyze to the point of paralysis; find maps, models, and theories repellent or hard to decipher; and/or you deliberately misinterpret the arguments of others, maybe for humor.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -1705,7 +1705,7 @@ var prompts = [{
     class: 'group84'
   },
   {
-    prompt: 'You tend to have negative experiences with delegating tasks to others and blame disorganization on others',
+    prompt: 'You tend to have negative experiences with delegating tasks to others and blame disorganization on others.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -1725,7 +1725,7 @@ var prompts = [{
     class: 'group85'
   },
   {
-    prompt: 'You seek continual and new external input to maintain the flow of ideas, and you are confident in your ability to brainstorm and free-associate continuously',
+    prompt: 'You seek continual and new external input to maintain the flow of ideas, and you are confident in your ability to brainstorm and free-associate continuously.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -1745,7 +1745,7 @@ var prompts = [{
     class: 'group86'
   },
   {
-    prompt: 'You often share past experiences to guide, help, or teach others, and you are responsible with safety and security for yourself and others',
+    prompt: 'You often share past experiences to guide, help, or teach others, and you are responsible with safety and security for yourself and others.',
     ISTJ: 1,
     ISTP: 0,
     INTJ: -1,
@@ -1765,7 +1765,7 @@ var prompts = [{
     class: 'group87'
   },
   {
-    prompt: 'You tend to bring energy to social interactions, and you take pleasure in interacting with immediate physical environemnt',
+    prompt: 'You tend to bring energy to social interactions, and you take pleasure in interacting with immediate physical environemnt.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -1785,7 +1785,7 @@ var prompts = [{
     class: 'group88'
   },
   {
-    prompt: 'You feel the need to suppress or corral feelings and emotions and you fear appearing weak',
+    prompt: 'You feel the need to suppress or corral feelings and emotions and you fear appearing weak.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -1825,7 +1825,7 @@ var prompts = [{
     class: 'group90'
   },
   {
-    prompt: 'You often criticize yourself and others for inconsistencies and logical error',
+    prompt: 'You often criticize yourself and others for inconsistencies and logical error.',
     ISTJ: 2,
     ISTP: 0,
     INTJ: 2,
@@ -1845,7 +1845,7 @@ var prompts = [{
     class: 'group91'
   },
   {
-    prompt: 'You deceive yourself and others with data and sources, or you find them silly or irrelevant',
+    prompt: 'You deceive yourself and others with data and sources, or you find them silly or irrelevant.',
     ISTJ: -1,
     ISTP: 0,
     INTJ: -1,
@@ -1865,7 +1865,7 @@ var prompts = [{
     class: 'group92'
   },
   {
-    prompt: 'You rarely have psychic hunches about things that will happen, and if/when you do, you tend to place no value or trust in them without verification',
+    prompt: 'You rarely have psychic hunches about things that will happen, and if/when you do, you tend to place no value or trust in them without verification.',
     ISTJ: 2,
     ISTP: 0,
     INTJ: -1,
@@ -1885,7 +1885,7 @@ var prompts = [{
     class: 'group93'
   },
   {
-    prompt: 'Thinking about the past often results in a quality of reliving or re-experiencing, and you very often use memories to relate to and understand the present',
+    prompt: 'Thinking about the past often results in a quality of reliving or re-experiencing, and you very often use memories to relate to and understand the present.',
     ISTJ: 2,
     ISTP: 0,
     INTJ: -1,
@@ -1905,7 +1905,7 @@ var prompts = [{
     class: 'group94'
   },
   {
-    prompt: 'You enjoy spontaneous interactions and do your best to care for the physical experience and comfort of others',
+    prompt: 'You enjoy spontaneous interactions and do your best to care for the physical experience and comfort of others.',
     ISTJ: 0,
     ISTP: 2,
     INTJ: 0,
@@ -1925,7 +1925,7 @@ var prompts = [{
     class: 'group95'
   },
   {
-    prompt: 'You may idealize your own values and passionately engage with them in conversation, sometimes with childlike enthusiasm',
+    prompt: 'You may idealize your own values and passionately engage with them in conversation, sometimes with childlike enthusiasm.',
     ISTJ: 2,
     ISTP: -1,
     INTJ: 2,
@@ -1945,7 +1945,7 @@ var prompts = [{
     class: 'group96'
   },
   {
-    prompt: 'You tend to be insecure or fearful about making other people feel bad or acting inappropriately',
+    prompt: 'You tend to be insecure or fearful about making other people feel bad or acting inappropriately.',
     ISTJ: -1,
     ISTP: 2,
     INTJ: -1,
@@ -1965,7 +1965,7 @@ var prompts = [{
     class: 'group97'
   },
   {
-    prompt: 'You feel obstructed or annoyed if you have to explain your reasonings to others, and/or you resist looking at the process in favor of results',
+    prompt: 'You feel obstructed or annoyed if you have to explain your reasonings to others, and/or you resist looking at the process in favor of results.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -1985,7 +1985,7 @@ var prompts = [{
     class: 'group98'
   },
   {
-    prompt: 'You often criticize yourself and others for the data and sources used',
+    prompt: 'You often criticize yourself and others for the data and sources used.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -2005,7 +2005,7 @@ var prompts = [{
     class: 'group99'
   },
   {
-    prompt: 'You tend to make false predictions or find significance in things that do not actually matter',
+    prompt: 'You tend to make false predictions or find significance in things that do not actually matter.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: -1,
@@ -2025,7 +2025,7 @@ var prompts = [{
     class: 'group100'
   },
   {
-    prompt: 'You tend not to consider a lot of options because you are far more particular about the quality and scope of a single vision, and/or you are prone to tunnel vision',
+    prompt: 'You tend not to consider a lot of options because you are far more particular about the quality and scope of a single vision, and/or you are prone to tunnel vision.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -2065,7 +2065,7 @@ var prompts = [{
     class: 'group102'
   },
   {
-    prompt: 'You seek sensory stimuli as a major source of understanding yourself and the world',
+    prompt: 'You seek sensory stimuli as a major source of understanding yourself and the world.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -2085,7 +2085,7 @@ var prompts = [{
     class: 'group103'
   },
   {
-    prompt: 'You are very critical of the visions, wants, or goals of yourself and others',
+    prompt: 'You are very critical of the visions, wants, or goals of yourself and others.',
     ISTJ: -1,
     ISTP: 0,
     INTJ: 0,
@@ -2105,7 +2105,7 @@ var prompts = [{
     class: 'group104'
   },
   {
-    prompt: 'Your suggestions are sometimes clumsy, confusing, and/or silly',
+    prompt: 'Your suggestions are sometimes clumsy, confusing, and/or silly.',
     ISTJ: 0,
     ISTP: 2,
     INTJ: 0,
@@ -2125,7 +2125,7 @@ var prompts = [{
     class: 'group105'
   },
   {
-    prompt: 'You often obsess over holes in your own logic and you are fearful and/or insecure about being wrong',
+    prompt: 'You often obsess over holes in your own logic and you are fearful and/or insecure about being wrong.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -2145,7 +2145,7 @@ var prompts = [{
     class: 'group106'
   },
   {
-    prompt: 'You teach other people moral values and you appreciate originality and differences between people',
+    prompt: 'You teach other people moral values and you appreciate originality and differences between people.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -2165,7 +2165,7 @@ var prompts = [{
     class: 'group107'
   },
   {
-    prompt: 'You tend to withhold communicating your analysis or thought because it seems like a waste of time and/or you think you may be misunderstood or will have trouble making it understandable',
+    prompt: 'You tend to withhold communicating your analysis or thought because it seems like a waste of time and/or you think you may be misunderstood or will have trouble making it understandable.',
     ISTJ: -1,
     ISTP: 2,
     INTJ: -1,
@@ -2185,7 +2185,7 @@ var prompts = [{
     class: 'group108'
   },
   {
-    prompt: 'You often charm others by playfully relating to their fealings, and laughing/joking is a major method used in building relationships',
+    prompt: 'You often charm others by playfully relating to their fealings, and laughing/joking is a major method used in building relationships.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
