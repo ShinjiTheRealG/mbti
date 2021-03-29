@@ -65,7 +65,7 @@ var prompts = [{
     class: 'group2'
   },
   {
-    prompt: 'You are usually highly responsible with caring for the feelings of others, wpth creating harmonious social atmospheres where people feel accepted and affirmed, and/or making sure people are being appropriate.',
+    prompt: 'You are usually highly responsible with caring for the feelings of others, with creating harmonious social atmospheres where people feel accepted and affirmed, and/or making sure people are being appropriate.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
