@@ -1285,7 +1285,7 @@ var prompts = [{
     class: 'group63'
   },
   {
-    prompt: 'You get hooked by new ideas and enjoy persuing them enthusiastically, sometimes throwing caution to the wind. You also enjoy making bucket lists of things you want to do in the future.',
+    prompt: 'You get hooked by new ideas and enjoy pursuing them enthusiastically, sometimes throwing caution to the wind. You also enjoy making bucket lists of things you want to do in the future.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
