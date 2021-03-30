@@ -5,7 +5,7 @@
 // If a personlity trait is considered more extroverted, it will have a positive weight.
 
 var prompts = [{
-    prompt: 'You have a high level of confidence in your ability to experience deep sympathy for anyone, serve as a moral compass, and/or decipher what you personally find to be good/bad or what you love/hate.',
+    prompt: 'You have a high level of confidence in your ability to experience deep sympathy for anyone and serve as a moral compass',
     ISTJ: 2,
     ISTP: -2,
     INTJ: 2,
@@ -125,7 +125,7 @@ var prompts = [{
     class: 'group5'
   },
   {
-    prompt: 'You tend to be unyielding and overconfident in your ability to decipher what is true/false using subjective logical analysis and/or you crave using your deduction and analysis as a source of relief.',
+    prompt: 'You tend to be unyielding and overconfident in your ability to decipher what is true/false using subjective logical analysis.',
     ISTJ: -1,
     ISTP: 1,
     INTJ: -1,
@@ -185,7 +185,7 @@ var prompts = [{
     class: 'group8'
   },
   {
-    prompt: 'You are fearful with expressing disagreement for fear of being inarticulate, worried about what other people think of you and your status, and/or insecure about gathering data/evidence and tend to overplan.',
+    prompt: 'You are fearful with expressing disagreement for fear of being inarticulate and often worried about what other people think of you and your status.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
@@ -365,7 +365,7 @@ var prompts = [{
     class: 'group17'
   },
   {
-    prompt: 'You tend to fail to notice critical details and seem to misremember events, you may pretend to hear only the literal level of communication, and/or you may find it amusing to rewrite history or have an urge to do so.',
+    prompt: 'You tend to fail to notice critical details and seem to misremember events and/or you may pretend to hear only the literal level of communication.',
     ISTJ: -1,
     ISTP: 0,
     INTJ: 0,
@@ -605,7 +605,7 @@ var prompts = [{
     class: 'group29'
   }, 
   {
-    prompt: 'You tend to be sporadic (too much or too little) with micromanaging and/or giving factual advice, present facts with childlike fervor and excitement, and/or you can get tyrannical and decisive with rules.',
+    prompt: 'You tend to be sporadic (too much or too little) with micromanaging and/or giving factual advice, or you present facts with childlike fervor and excitement.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -1185,7 +1185,7 @@ var prompts = [{
     class: 'group58'
   },
   {
-    prompt: 'You often decide/think first based on observed cause and effect or observed reasons and consequences rather than imagined/deduced effects or consequences.',
+    prompt: 'You often decide/think first based on observed cause and effect (observed reasons and consequences) rather than deduced effects or consequences.',
     ISTJ: 4,
     ISTP: -2,
     INTJ: 4,
@@ -1285,7 +1285,7 @@ var prompts = [{
     class: 'group63'
   },
   {
-    prompt: 'You get hooked by new ideas and enjoy pursuing them enthusiastically, sometimes throwing caution to the wind. You also enjoy making bucket lists of things you want to do in the future.',
+    prompt: 'You get hooked by new ideas and enjoy pursuing them enthusiastically, sometimes throwing caution to the wind.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
@@ -1685,7 +1685,7 @@ var prompts = [{
     class: 'group83'
   },
   {
-    prompt: 'You may overanalyze to the point of paralysis; find maps, models, and theories repellent or hard to decipher; and/or you deliberately misinterpret the arguments of others, maybe for humor.',
+    prompt: 'You may overanalyze to the point of paralysis and/or you deliberately misinterpret the arguments of others, maybe for humor.',
     ISTJ: 0,
     ISTP: -1,
     INTJ: 0,
