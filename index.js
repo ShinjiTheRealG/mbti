@@ -1085,7 +1085,7 @@ var prompts = [{
     class: 'group53'
   },
   {
-    prompt: 'You may sharply criticize physical appearances of self.',
+    prompt: 'You may sharply criticize physical appearances of yourself.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 1,
