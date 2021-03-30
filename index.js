@@ -1525,7 +1525,7 @@ var prompts = [{
     class: 'group75'
   },
   {
-    prompt: 'You strive for an image or vision that synthesizes all, you commonly look for the ultimate meaning of things, and/or you seek knowledge at cosmic levels.',
+    prompt: 'You strive for an image or vision that synthesizes all and/or you commonly look for the ultimate meaning of things.',
     ISTJ: -1,
     ISTP: 0,
     INTJ: 2,
