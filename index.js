@@ -1465,7 +1465,7 @@ var prompts = [{
     class: 'group72'
   },
   {
-    prompt: 'You prioritize your own value/moral judgments over other people.',
+    prompt: 'You prioritize your own value/moral judgments over those of other people.',
     ISTJ: 2,
     ISTP: -4,
     INTJ: 2,
