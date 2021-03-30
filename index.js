@@ -2185,7 +2185,7 @@ var prompts = [{
     class: 'group108'
   },
   {
-    prompt: 'You often charm others by playfully relating to their fealings, and laughing/joking is a major method used in building relationships.',
+    prompt: 'You often charm others by playfully relating to their feelings, and laughing/joking is a major method used in building relationships.',
     ISTJ: 0,
     ISTP: 0,
     INTJ: 0,
