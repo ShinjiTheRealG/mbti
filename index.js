@@ -5,7 +5,7 @@
 // If a personlity trait is considered more extroverted, it will have a positive weight.
 
 var prompts = [{
-    prompt: 'You have a high level of confidence in your ability to experience deep sympathy for anyone and serve as a moral compass',
+    prompt: 'You have a high level of confidence in your ability to experience deep sympathy for anyone and serve as a moral compass.',
     ISTJ: 2,
     ISTP: -2,
     INTJ: 2,
