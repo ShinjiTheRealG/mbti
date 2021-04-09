@@ -265,7 +265,7 @@ var prompts = [{
     class: 'group12'
   },
   {
-    prompt: 'You are very often deciding according to importance or value or with what is good/bad or what you like/do not like.',
+    prompt: 'You are very often deciding according to importance or value or with what is good/bad.',
     ISTJ: 2,
     ISTP: -4,
     INTJ: 2,
