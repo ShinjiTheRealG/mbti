@@ -3135,6 +3135,7 @@ var forEach = function(object, block, context) {
   $('#quiz').addClass('hide');
   $('#submit-btn').addClass('hide');
   $('#retake-btn').removeClass('hide');
+  $('#test1').addClass('hide');
 })
 
 // Refresh the screen to show a new quiz if they click the retake quiz button
@@ -3142,6 +3143,7 @@ $('#retake-btn').click(function() {
   $('#quiz').removeClass('hide');
   $('#submit-btn').removeClass('hide');
   $('#retake-btn').addClass('hide');
+  $('#test1').removeClass('hide');
 
   $('.results').addClass('hide');
   $('.results').removeClass('show');
