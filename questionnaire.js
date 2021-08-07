@@ -1,6 +1,6 @@
 Survey
     .StylesManager
-    .applyTheme("darkblue");
+    .applyTheme("modern");
 
 var json = {
  pages: [
