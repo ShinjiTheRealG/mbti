@@ -259,14 +259,15 @@ var json = {
  ]
 };
 
-window.survey = new Survey.Model(json);
 
-survey
-    .onComplete
-    .add(function (sender) {
-        document
-            .querySelector('#surveyResult')
-            .textContent = "Result JSON:\n" + JSON.stringify(sender.data, null, 3);
-    });
+function sendDataToServer(survey) {
+    survey.sendResult('0a25fb1d-9788-4ef4-adec-7a6157206e9b');
+}
 
-$("#surveyElement").Survey({model: survey});
+var survey = new Survey.Model(json);
+
+
+$("#surveyElement").Survey({
+    model: survey,
+    onComplete: sendDataToServer
+});
