@@ -1882,7 +1882,7 @@ var json = {
     {
      type: "matrix",
      name: "question29",
-     maxWidth: "800px",
+     maxWidth: "1200px",
      title: "Please use the matrix to describe yourself",
      columns: [
       "Strongly Disagree",
